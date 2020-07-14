@@ -671,7 +671,7 @@ span{
 
 
 .contact{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     left: 0;
     background: var(--color-white);
@@ -857,5 +857,55 @@ span{
     line-height: normal;
 }
 
+
+
+
+
+.footer{
+    display: flex;
+    position: absolute;
+    height: 15vh;
+    width: 100%;
+    left: 0;
+    top: 3900px;
+    box-shadow: 0 2px 50px 1px var(--color-grey);
+
+}
+.container{}
+.footer-box{
+    width: 100%;
+
+
+
+}
+.footer-title{
+    position: absolute;
+    color: var(--color-primary);
+    font-family: var(--font-open-sans);
+    left: 35px;
+    font-size: 30px;
+    font-weight: 300;
+    top: 30px;
+}
+.footer-text{
+    position: absolute;
+    top: 80px;
+    color: var(--color-grey);
+    font-family: var(--font-open-sans);
+    font-size: 10px;
+    left: 35px;
+
+}
+
+.footer-img_twitter{
+    position: relative;
+    left: 90%;
+    top: 40px;
+}
+.footer-img_facebook{
+    position: relative;
+    left: 92%;
+    top: 40px;
+}
 
 
